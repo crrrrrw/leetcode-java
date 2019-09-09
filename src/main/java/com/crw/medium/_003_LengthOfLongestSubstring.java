@@ -1,4 +1,4 @@
-package com.crw.easy;
+package com.crw.medium;
 
 import java.util.HashMap;
 import java.util.Map;

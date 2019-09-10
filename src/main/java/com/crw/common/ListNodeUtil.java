@@ -2,18 +2,18 @@ package com.crw.common;
 
 import java.util.Scanner;
 
-public class LinkedNodeUtil {
+public class ListNodeUtil {
 
     public static void main(String[] args) {
-        LinkedNode linkedNode = createLinkedNode();
-        print(linkedNode);
+        ListNode listNode = createListNode();
+        print(listNode);
 
     }
 
-    static void print(LinkedNode linkedNode) {
-        while (linkedNode != null) {
-            System.out.print(linkedNode.val + " ");
-            linkedNode = linkedNode.next;
+    public static void print(ListNode listNode) {
+        while (listNode != null) {
+            System.out.print(listNode.val + " ");
+            listNode = listNode.next;
         }
     }
 
@@ -23,8 +23,8 @@ public class LinkedNodeUtil {
      *
      * @return
      */
-    static LinkedNode createLinkedNodeReverse() {
-        LinkedNode head = new LinkedNode(-1);
+    public static ListNode createListNodeReverse() {
+        ListNode head = new ListNode(-1);
         Scanner scanner = new Scanner(System.in);
         while (scanner.hasNext()) {
             String value = scanner.next();
@@ -32,7 +32,7 @@ public class LinkedNodeUtil {
                 scanner.close();
                 return head;
             }
-            LinkedNode newNode = new LinkedNode(Integer.valueOf(value));
+            ListNode newNode = new ListNode(Integer.valueOf(value));
             if (head.next == null) {
                 head.next = newNode;
             } else {
@@ -50,9 +50,9 @@ public class LinkedNodeUtil {
      *
      * @return
      */
-    static LinkedNode createLinkedNode() {
-        LinkedNode tail = new LinkedNode(-1);
-        LinkedNode result = null;
+    public static ListNode createListNode() {
+        ListNode tail = new ListNode(-1);
+        ListNode result = null;
         Scanner scanner = new Scanner(System.in);
         while (scanner.hasNext()) {
             String value = scanner.next();
@@ -60,7 +60,7 @@ public class LinkedNodeUtil {
                 scanner.close();
                 return result;
             }
-            LinkedNode newNode = new LinkedNode(Integer.valueOf(value));
+            ListNode newNode = new ListNode(Integer.valueOf(value));
             if (tail.next == null) {
                 result = newNode;
             } else {

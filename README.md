@@ -9,12 +9,13 @@ leetcode上难度分三档：easy,medium,hard. 如下：
 - [Two Sum II](https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/easy/_167_TwoSum2.java)
 - [Reverse Integer](https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/easy/_007_ReverseInteger.java)
 - [Palindrome Number](https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/easy/_009_PalindromeNumber.java)
-
+- [Longest Common Prefix](https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/easy/_014_LongestCommonPrefix.java)
 
 ## medium
 - [Add Two Numbers](https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/medium/_002_AddTwoNumbers.java)
 - [Longest Substring Without Repeating Characters](https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/medium/_003_LengthOfLongestSubstring.java)
 - [Reverse Linked List II](https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/medium/_092_ReverseLinkedList_II.java)
 - [Container With Most Water](https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/medium/_011_ContainerWithMostWater.java)
-- [Longest Common Prefix](https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/medium/_014_LongestCommonPrefix.java)
+- [3 Sum](https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/medium/_015_3Sum.java)
+
 ## hard

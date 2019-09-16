@@ -1,4 +1,4 @@
-package com.crw.medium;
+package com.crw.easy;
 
 /**
  * 最长公共前缀

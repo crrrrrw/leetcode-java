@@ -57,7 +57,6 @@ public class ListNodeUtil {
         while (scanner.hasNext()) {
             String value = scanner.next();
             if ("q".equals(value)) {
-                scanner.close();
                 return result;
             }
             ListNode newNode = new ListNode(Integer.valueOf(value));

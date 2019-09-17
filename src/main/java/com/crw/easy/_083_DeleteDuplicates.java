@@ -22,16 +22,22 @@ public class _083_DeleteDuplicates {
     }
 
     /**
-     * 递归即可，算法比较简单
-     * 代码量少版
+     * 非递归版本
      *
      * @param head
      * @return
      */
     private static ListNode deleteDuplicates(ListNode head) {
-        if (head == null || head.next == null) return head;
-        head.next = deleteDuplicates(head.next);
-        return head.val == head.next.val ? head.next.next : head.next;
+        ListNode current = head;
+        while (current != null && current.next != null) {
+            if (current.next.val == current.val) {
+                current.next = current.next.next;
+            } else {
+                current = current.next;
+            }
+        }
+        return head;
+
     }
 
 
@@ -42,7 +48,7 @@ public class _083_DeleteDuplicates {
      * @param head
      * @return
      */
-    private static ListNode deleteDuplicates2(ListNode head) {
+    private static ListNode deleteDuplicates3(ListNode head) {
         ListNode ans = head;
         deleteDuplicatesHelper(head);
         return ans;

@@ -64,4 +64,23 @@ public class _024_SwapPairs {
 
         return ans;
     }
+
+    /**
+     * 递归
+     * 没传传入 1 号节点，返回 2 号节点，并使 2 号节点指向 1 号节点
+     *
+     * @param head
+     * @return
+     */
+    private static ListNode swapPairs2(ListNode head) {
+        if (head == null || head.next == null) return head;
+
+        // 2 号节点
+        ListNode n2 = head.next;
+        // 1 -> 3
+        head.next = swapPairs2(n2.next);
+        // 2 -> 1
+        n2.next = head;
+        return n2;
+    }
 }

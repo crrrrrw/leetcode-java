@@ -21,6 +21,7 @@ leetcode上难度分三档：easy,medium,hard. 如下：
 - [3 Sum Closest](https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/medium/_016_ThreeSumClosest.java)
 - [4 Sum](https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/medium/_18_FourSum.java)
 - [Remove Nth Node From End of List]((https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/medium/_019_RemoveNthFromEnd.java))
+- [Swap Nodes in Pairs]((https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/medium/_024_SwapPairs.java))
 
 ## hard
 - [Merge k Sorted Lists]((https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/hard/_023_MergeKLists.java))

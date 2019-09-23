@@ -11,6 +11,7 @@ leetcode上难度分三档：easy,medium,hard. 如下：
 - [Longest Common Prefix](https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/easy/_014_LongestCommonPrefix.java)
 - [Merge Two Sorted Lists](https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/easy/_021_MergeTwoLists.java)
 - [Remove Duplicates from Sorted List](https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/easy/_083_DeleteDuplicates.java)
+- [Remove Duplicates from Sorted Array](https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/easy/_026_RemoveDuplicates.java)
 
 ## medium
 - [Add Two Numbers](https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/medium/_002_AddTwoNumbers.java)
@@ -25,3 +26,4 @@ leetcode上难度分三档：easy,medium,hard. 如下：
 
 ## hard
 - [Merge k Sorted Lists]((https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/hard/_023_MergeKLists.java))
+- [Reverse Nodes in k-Group]((https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/hard/_025_ReverseKGroup.java))

@@ -3,7 +3,7 @@ package com.crw.common;
 public class TreeNodeUtil {
 
     public static void main(String[] args) {
-        int[] arr = new int[]{1, 2, 3, 4, 5, 6};
+        int[] arr = new int[]{1, 2, 3, 0, 5, 6};
         printTreeBinary(arrToTree(arr));
     }
 
@@ -15,6 +15,7 @@ public class TreeNodeUtil {
         TreeNode root = null;
         if (index < arr.length) {
             int value = arr[index];
+            if (value == 0) return null;
             root = new TreeNode(value);
             root.left = arrToTree(arr, 2 * index + 1);
             root.right = arrToTree(arr, 2 * index + 2);

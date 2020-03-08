@@ -17,6 +17,7 @@ leetcode上难度分三档：easy,medium,hard. 如下：
 - [Maximum Depth of Binary Tree](https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/easy/_104_MaximumDepthOfBinaryTree.java)
 - [Binary Tree Level Order Traversal II](https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/easy/_107_BinaryTreeLevelOrderTraversal2.java)
 - [Convert Sorted Array to Binary Search Tree](https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/easy/_108_ConvertSortedArrayToBinarySearchTree.java)
+- [Balanced Binary Tree](https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/easy/_110_BalancedBinaryTree.java)
 
 ## medium
 - [Add Two Numbers](https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/medium/_002_AddTwoNumbers.java)

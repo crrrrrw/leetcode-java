@@ -28,6 +28,7 @@ public class TreeNodeUtil {
      * 前序遍历
      */
     public static void printTreeBinary(TreeNode treeNode) {
+        if (treeNode == null) System.out.println(treeNode);
         if (treeNode != null) {
             System.out.println(treeNode.val);
             printTreeBinary(treeNode.left);

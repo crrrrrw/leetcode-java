@@ -32,7 +32,7 @@ leetcode上难度分三档：easy,medium,hard. 如下：
 - [Remove Nth Node From End of List]((https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/medium/_019_RemoveNthFromEnd.java))
 - [Swap Nodes in Pairs]((https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/medium/_024_SwapPairs.java))
 - [Path Sum II]((https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/medium/_112_PathSum_ll.java))
-
+- [Copy List with Random Pointer]((https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/medium/_138_CopyRandomList.java.java))
 ## hard
 - [Merge k Sorted Lists]((https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/hard/_023_MergeKLists.java))
 - [Reverse Nodes in k-Group]((https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/hard/_025_ReverseKGroup.java))

@@ -37,3 +37,4 @@ leetcode上难度分三档：easy,medium,hard. 如下：
 ## hard
 - [Merge k Sorted Lists]((https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/hard/_023_MergeKLists.java))
 - [Reverse Nodes in k-Group]((https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/hard/_025_ReverseKGroup.java))
+- [Trapping Rain Water]((https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/hard/_042_TrappingRainWater.java))

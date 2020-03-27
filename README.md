@@ -20,6 +20,7 @@ leetcode上难度分三档：easy,medium,hard. 如下：
 - [Balanced Binary Tree](https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/easy/_110_BalancedBinaryTree.java)
 - [Minimum Depth of Binary Tree](https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/easy/_111_MinimumDepthOfBinaryTree.java)
 - [Path Sum](https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/easy/_112_PathSum.java)
+- [Best Time to Buy and Sell Stock](https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/easy/_121_BestTimeToBuyAndSellStock.java)
 - [Reverse Linked List](https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/easy/_206_ReverseList.java)
 
 ## medium

@@ -36,6 +36,8 @@ leetcode上难度分三档：easy,medium,hard. 如下：
 - [Path Sum II]((https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/medium/_112_PathSum_ll.java))
 - [Copy List with Random Pointer]((https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/medium/_138_CopyRandomList.java))
 - [Building H2O]((https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/medium/_1117_BuildingH2O.java))
+- [Fizz Buzz Multithreaded]((https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/medium/_1195_FizzBuzzMultithreaded.java))
+
 ## hard
 - [Merge k Sorted Lists]((https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/hard/_023_MergeKLists.java))
 - [Reverse Nodes in k-Group]((https://github.com/crrrrrw/leetcode-java/blob/master/src/main/java/com/crw/hard/_025_ReverseKGroup.java))

@@ -29,7 +29,7 @@ import java.util.List;
  * [-4,-2,-2,-1]
  * ]
  */
-public class _18_FourSum {
+public class _018_FourSum {
 
     public static void main(String[] args) {
         fourSum(new int[]{-1, 0, -5, -2, -2, -4, 0, 1, -2}, -9).forEach(System.out::println);

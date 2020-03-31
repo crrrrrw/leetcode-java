@@ -23,7 +23,7 @@ import java.util.List;
  * 链接：https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class _57_ll_FindContinuousSequence {
+public class _057_ll_FindContinuousSequence {
 
     public static void main(String[] args) {
         int[][] arr = findContinuousSequence(15);
@@ -36,6 +36,8 @@ public class _57_ll_FindContinuousSequence {
     }
 
     /**
+     * 滑动窗口
+     * 根据 sum 值更改窗口的大小，初始都从1开始
      *
      * @param target
      * @return
@@ -70,24 +72,4 @@ public class _57_ll_FindContinuousSequence {
 
     }
 
-    public static int[][] findContinuousSequence1(int target) {
-
-        int[][] result = new int[target][];
-
-        for (int i = 1; i < target / 2 + 1; i++) {
-            int sum = 0;
-            int[] arr = new int[target - i];
-            for (int j = 0, k = i; j < arr.length && sum <= target; j++, k++) {
-                arr[j] = k;
-                sum += k;
-                if (sum == target) {
-                    result[i - 1] = arr;
-                    break;
-                }
-            }
-        }
-
-        return result;
-
-    }
 }

@@ -23,7 +23,7 @@ import java.util.PriorityQueue;
  * 链接：https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class _40_GetLeastNumbers {
+public class _040_GetLeastNumbers {
 
     public static void main(String[] args) {
         int[] arr = getLeastNumbers(new int[]{6, 8, 4, 3, 2, 1}, 3);
